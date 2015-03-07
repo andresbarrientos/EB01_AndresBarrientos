@@ -1,0 +1,56 @@
+body
+{
+ background-image: url('fondo5.gif'),url('fondo6.jpg');
+ background-position:  left left, center center;
+ background-repeat: no-repeat, no-repeat;
+ background-size: 700px, 1400px;
+
+
+}
+
+header
+{
+
+background: blue;
+border: 3px solid black;
+border-radius: 30px 90px 25px 5px;
+box-shadow: inset 0px 0px 30px white, 10px 10px 20px blue;
+color:orange;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+text-shadow:2px 3px 5px black;
+width: 300px;
+
+}
+
+.Menu
+{
+margin: 10px auto;
+text-align: center;
+width: 500px;
+}
+
+.Menu li {
+display: inline-block;
+list-style: none;
+background: blue-white;
+border: 1px solid red;
+border-radius: 5px;
+box-shadow: inset 0px 0px 5px white;
+color: white;
+font: bold 19px "Myriad pro", "comic sans", Arial;
+cursor: pointer; 
+padding: 5px 15px;
+background-image: -webkit-linear-gradient(
+	top,
+	rgba(253,253,253,.9) 0%
+	rgba(0,0,0,.5) 100%
+
+	); 
+
+}
+.Menu li:hover{
+background: rgb(245, 229, 14);
+
+}
