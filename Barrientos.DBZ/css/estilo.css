@@ -1,0 +1,139 @@
+body
+{
+ background-image: url('../images/fondo5.gif'),url('../images/fondo6.jpg');
+ background-position:  left left, center center;
+ background-repeat: no-repeat, no-repeat;
+ background-size: 700px, 1400px;
+ cursor:url('../images/ICO/liberty.ico');
+}
+
+header
+{
+
+background: blue;
+border: 3px solid black;
+border-radius: 30px 90px 25px 5px;
+box-shadow: inset 0px 0px 30px white, 10px 10px 20px blue;
+color:orange;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+text-shadow:2px 3px 5px black;
+width: 300px;
+
+}
+
+.Menu
+{
+margin: 10px auto;
+text-align: center;
+width: 500px;
+}
+
+.Menu li {
+display: inline-block;
+list-style: none;
+background: blue-white;
+border: 1px solid red;
+border-radius: 5px;
+box-shadow: inset 0px 0px 5px white;
+color: white;
+font: bold 19px "Myriad pro", "comic sans", Arial;
+cursor: pointer; 
+padding: 5px 15px;
+background-image: -webkit-linear-gradient(
+	top,
+	rgba(253,253,253,.9) 0%
+	rgba(0,0,0,.5) 100%
+
+	); 
+
+}
+
+.Menu li:hover{
+background: rgb(245, 229, 14);
+
+}
+
+.caja_muestra
+{
+	background: #eee;
+	border: 1px solid #777;
+	border-radius: 0px 5px 5px 5px;
+	border-top: none;
+	display: none;
+	margin: 4px auto;
+	padding: 10px 5px;
+	position: absolute;
+	text-align: left;
+	width: 350px;
+}
+
+
+@font-face{
+	font-family: 'Oswald';
+	src: url('fonts/#QuickUsePlace:quickUse;'); 
+	font-weight:bold;
+	/*OTF*/
+	/*ttf*/
+	/*eot*/
+	/*svg*/
+	/*woff*/
+
+}
+
+
+body{
+	/*font-family: 'Caesar Dressing', 'Verdana', cursive;*/
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Chewy';
+	
+}
+
+p{
+
+background-color: rgb(255,255,255);
+font-family: 'Oswald', sans-serif;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    body 
+    {
+       background: ##1e5799; /* Old browsers */
+       /*
+       background: -moz-linear-gradient(top,  #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e2c7), color-stop(50%,#c19e67), color-stop(51%,#b68d4c), color-stop(100%,#e9d4b3)); 
+       background: -webkit-linear-gradient(top,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+       background: -o-linear-gradient(top,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+       background: -ms-linear-gradient(top,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+       */
+       background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 );
+    }
+    img
+    {
+    	border: 2px solid blue;
+    	width: 70%;
+    	border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body 
+    {
+       background: #cdeb8e; /* Old browsers */
+       /*
+       background: -moz-linear-gradient(top,  #cdeb8e 0%, #a5c956 100%);
+       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8e), color-stop(100%,#a5c956));
+       background: -webkit-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+       background: -o-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+       background: -ms-linear-gradient(top,  #cdeb8e 0%,#a5c956 100%);
+       */
+       background: linear-gradient(to bottom,  ##0101DF 0%,#a5c956 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 );
+
+    }
+}
+
