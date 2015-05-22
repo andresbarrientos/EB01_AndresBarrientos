@@ -1,0 +1,67 @@
+body
+{
+	background: #2E3740;
+	color: #4682B4;
+	font-family: "Open Sans", sans-serif;
+}
+
+
+#rangoAdivina
+	{
+		border: 5px solid black;
+		background-color: blue;
+		border-radius: 20px;
+		color: white;
+		font-size: 30px;
+		padding: 10px;
+		width: 70%;
+		box-shadow: 10px 10px 30px black;
+	}
+	#adivina
+	{
+		border-radius: 10px;
+		font-size: 30px;
+		width: 60%;
+		margin-top: 20px;
+		text-align: center; 
+	}
+	#mensaje
+	{
+		color: orange;
+		font-size: 45px;
+		margin-top: 20px;
+	}
+
+#intentos{
+	width: 60%;
+	height: 40px;
+	background-color: #1BDCAC;
+	margin-top:15px;
+	padding: 10px 0px 0px 0px;
+	font-size: 22px;
+	font-weight: bold;	
+	color:black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #000;
+}
+.boton{
+	width: 60%;
+	height: 40px;
+	background-color: #1BDCAC;
+	margin-top:15px;
+	padding: 10px 0px 0px 0px;
+	font-size: 22px;
+	font-weight: bold;	
+	color:black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px #000;
+	position: relative;
+	cursor: pointer;
+}
+.boton:hover{
+	top:2px;
+	left: 4px;
+	background-color: green;
+}
+
+
